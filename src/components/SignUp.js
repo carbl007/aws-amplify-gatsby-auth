@@ -8,7 +8,7 @@ const initialState = {
   username: ``,
   password: ``,
   email: '',
-  phone_number: '',
+  phone_number: '+04',
   authCode: '',
   stage: 0,
   error: ''
