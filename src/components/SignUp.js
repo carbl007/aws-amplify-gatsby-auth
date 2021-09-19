@@ -84,6 +84,13 @@ class SignUp extends React.Component {
                 value={this.state.phone_number}
                 style={styles.input}
               />
+              <input
+                onChange={this.handleUpdate}
+                placeholder='Would you like to be a driver for Nüber?'
+                name='drivercheck'
+                value={this.state.drivercheck}
+                style={styles.checkbox}
+              />
               <div style={styles.button} onClick={this.signUp}>
                 <span style={styles.buttonText}>Sign Up</span>
               </div>
