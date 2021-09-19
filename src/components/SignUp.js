@@ -85,6 +85,7 @@ class SignUp extends React.Component {
                 style={styles.input}
               />
               <input
+                type='checkbox'
                 onChange={this.handleUpdate}
                 placeholder='Would you like to be a driver for Nüber?'
                 name='drivercheck'
